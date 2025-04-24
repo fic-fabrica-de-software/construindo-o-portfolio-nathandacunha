@@ -56,6 +56,27 @@ body {
     transition: all 1s ease-out; 
 }
 
+#navbar .iconSobreMim {
+    position: absolute;
+    left: 635px;
+    top: 2px;
+    color: var(--corDaFonte);
+}
+
+#navbar .iconProjetos {
+    position: absolute;
+    left: 865px;
+    top: 2px;
+    color: var(--corDaFonte);
+}
+
+#navbar .iconContatos {
+    position: absolute;
+    left: 1070px;
+    top: 2px;
+    color: var(--corDaFonte);
+}
+
 .container {
     max-width: 400px;
     margin: 0 auto;

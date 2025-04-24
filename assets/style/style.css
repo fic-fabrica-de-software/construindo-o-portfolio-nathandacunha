@@ -103,12 +103,20 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 900px;
+    left: 875px;
     top: 125px;
     color: var(--corDaFonte);
     font-family: "Inknut Antiqua", serif;
     font-weight: 300;
-    font-size: 26px;
+    font-size: 45px;
+}
+
+.iconContato {
+    position: absolute;
+    left: 800px;
+    top: 160px;
+    font-size: 50px;
+    color: var(--corDaFonte);
 }
 
 .divulgacao .linkedin h1 {
@@ -153,5 +161,33 @@ body {
     font-size: 26px;
     cursor: pointer;
     font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.email .gmail {
+    position: absolute;
+    left: 930px;
+    top: 345px;
+    color: var(--corDaFonte);
+    font-size: 26px;
+    font-weight: 300;
+    font-family: "Inknut Antiqua", serif;
+}
+
+.email .nomeEmail {
+    position: absolute;
+    left: 800px;
+    top: 415px;
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.iconGmail {
+    position: absolute;
+    left: 850px;
+    top: 368px;
+    font-size: 26px;
+    color: var(--corDaFonte);
     font-weight: 300;
 }

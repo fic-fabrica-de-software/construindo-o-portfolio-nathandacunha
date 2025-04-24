@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corCabecalho: #700848;
+    --corDaFonte: #f9eae1;
+    --corFundo: #7899d4;
+    --corDaTransicao: #4EA5D9;
+    --corBackgroundPerfil: #f9eae1;
+}
+#cabecalho {
+    background-color: var(--corCabecalho);
+    max-height: 60px;
+    height: 40px;
+}
+
+body {
+    background-color: var(--corFundo);
+}
+
+#title h1 {
+    color: var(--corDaFonte);
+    padding-left: 45px;
+    font-size: 26px;
+    padding-top: 2px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    position: relative;
+    bottom: 15px;
+}
+
+#navbar ul{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    position: relative;
+    bottom: 63px;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 26px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: var(--corDaFonte);
+}
+
+#navbar a:hover {
+    color: var(--corDaTransicao);
+    transition: all 1s ease-out; 
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.circuloAzul {
+    padding: 175px;
+    margin: 10px;
+    background-color: var(--corBackgroundPerfil);
+    border-radius: 50%;
+    position: relative;
+    right: 625px;
+    top: 95px;
+}
+
+.apresentacao h1 {
+    color: var(--corDaFonte);
+    font-size: 52px;
+    position: relative;
+    bottom: 255px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.containerDescricao {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.descricao h2 {
+    color: var(--corDaFonte);
+    font-weight: 300;
+    font-family: "Inknut Antiqua", serif;
+    font-size: 25px;
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+}
+
+/* Estilização do contato */ 
+
+.contatos h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    top: 125px;
+    color: var(--corDaFonte);
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.divulgacao .linkedin h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 650px;
+    top: 225px;
+    color: var(--corDaFonte);
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.divulgacao .gitHub h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1115px;
+    top: 225px;
+    color: var(--corDaFonte);
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.iconLinke {
+    position: absolute;
+    left: 580px;
+    top: 235px;
+    color: var(--corDaFonte);
+    font-size: 26px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.iconGitHub {
+    position: absolute;
+    left: 1280px;
+    top: 232px;
+    color: var(--corDaFonte);
+    font-size: 26px;
+    cursor: pointer;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}

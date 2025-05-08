@@ -212,3 +212,43 @@ body {
     color: var(--corDaFonte);
     font-weight: 300;
 }
+
+.iconMenuBar {
+    display: block;
+    font-size: 55px;
+}
+
+/* tela resolução: mobile */
+
+@media screen and (max-width: 480px){
+    #cabecalho {
+        width: 480px;
+        height: 45px;
+    }
+    #title h1{
+        font-size: 15px;
+        position: absolute;
+        top: 4px;
+        left: 18px;
+    }
+    ul li {
+        display: none;
+    }
+
+    .container .apresentacao h1 {
+        font-size: 26px;
+        position: absolute;
+        top: 75px;
+        left: 55px;
+    }
+
+    .containerDescricao .descricao h2 {
+        position: absolute;
+        font-size: 16px;
+        top: 285px;
+        right: 65px;
+        left: 65px;
+    }
+
+}
+

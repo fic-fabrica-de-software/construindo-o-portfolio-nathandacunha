@@ -31,9 +31,13 @@ body {
 }
 
 .iconMenu {
-    font-size: 30px;
+    font-size: 50px;
 }
 
+.menu {
+    margin-top: 15px;
+    margin-left: 5px;
+}
 
 
 .apresentacao h1{
@@ -51,4 +55,26 @@ body {
     justify-content: center;
     margin-top: 15px;
     font-weight: 300;
+}
+
+.descricao h2 {
+    color: var(--corDasFontes);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 55px;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.perfil {
+    height: 25px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
 }

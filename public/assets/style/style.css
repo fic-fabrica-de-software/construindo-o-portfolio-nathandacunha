@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corNavBar: #700848;
+    --corDasFontes: #ffff;
+    --wallpaper: #7899d4;
+}
+body {
+    background-color: var(--wallpaper);
+}
+
+.navbar {
+    background-color: var(--corNavBar);
+    height: 65px;
+}
+
+.boasVindas h1 {
+    color: var(--corDasFontes);
+    font-family: "Inknut Antiqua", serif;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.

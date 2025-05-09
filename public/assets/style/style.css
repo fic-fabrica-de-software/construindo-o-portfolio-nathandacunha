@@ -30,4 +30,25 @@ body {
     align-items: center;
 }
 
-.
+.iconMenu {
+    font-size: 30px;
+}
+
+
+
+.apresentacao h1{
+    color: var(--corDasFontes);
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-right: 135px;
+    font-weight: 300;
+}
+
+.meuNome h1 {
+    color: var(--corDasFontes);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-weight: 300;
+}

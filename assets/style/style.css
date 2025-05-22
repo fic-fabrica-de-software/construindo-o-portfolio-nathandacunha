@@ -14,8 +14,7 @@
 }
 #cabecalho {
     background-color: var(--corCabecalho);
-    max-height:60px;
-    height: 40px;
+    height: 75px;
 }
 
 body {
@@ -30,7 +29,7 @@ body {
     font-family: "Inknut Antiqua", serif;
     font-weight: 300;
     position: relative;
-    bottom: 15px;
+    bottom: 2.2px;
 }
 
 #navbar ul{
@@ -38,7 +37,7 @@ body {
     gap: 5rem;
     justify-content: center;
     position: relative;
-    bottom: 63px;
+    bottom: 50px;
 }
 
 #navbar ul li {
@@ -218,18 +217,31 @@ body {
     font-size: 55px;
 }
 
+/* icon eu */
+
+.iconEu {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    height: 355px;
+    width: 370px;
+    border-radius: 100%;
+}
+
 /* tela resolução: mobile */
 
 @media screen and (max-width: 480px){
     #cabecalho {
-        width: 480px;
-        height: 45px;
+        width: 522px;
+        height: 55px;
     }
     #title h1{
         font-size: 15px;
         position: absolute;
         top: 4px;
-        left: 18px;
+        left: 35px;
+        display: flex;
+        justify-content: center;
     }
     ul li {
         display: none;
@@ -249,16 +261,10 @@ body {
         right: 65px;
         left: 65px;
     }
-
-}
-
-/* icon eu */
-
-.iconEu {
-    position: absolute;
-    top: 140px;
-    left: 150px;
-    height: 355px;
-    width: 370px;
-    border-radius: 100%;
+    .container .apresentacao img {
+        margin-top: 750px;
+        display: flex;
+        justify-content: center;
+        margin-right: 1250px;
+    }
 }

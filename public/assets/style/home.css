@@ -173,3 +173,27 @@ body {
     margin-top: 30px;
     margin-left: 45px;
 }
+
+/* Adaptação para desktop */
+
+@media screen and (min-width: 1024px) {
+    #perfil img{
+        margin-right: 1350px;
+        height: 352px;
+        width: 352px;
+    }
+    .apresentacao h1 {
+        margin-left: 755px;
+        margin-top: 75px;
+        font-size: 55px;
+    }
+    .apresentacao h2 {
+        margin-top: 5px;
+        margin-left: 755px;
+    }
+    .descricao h1 {
+        margin-left: 855px;
+        font-size: 25px;
+        font-weight: 300;
+    }
+}

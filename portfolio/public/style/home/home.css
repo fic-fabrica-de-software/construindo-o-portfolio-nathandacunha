@@ -7,14 +7,16 @@ body {
     background-color: #373737;
 }
 
-
-.retanguloTransparente h1 {
-    background-color: black;
-    width: 400px;
-    border-radius: 30px;
-
-    font-size: 28px; 
-    font-weight: 300;
-    color: white;  
+.sideBar {
+    background-color: purple;
+    width: 68px;
+    height: 910px;
 }
+
+.iconHome {
+    background-color: white;
+    padding: 55%;
+    border-radius: 100%;
+}
+
 

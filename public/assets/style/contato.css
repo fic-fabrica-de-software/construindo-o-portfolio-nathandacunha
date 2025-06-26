@@ -76,6 +76,28 @@ body {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    /* Topnav */
+    .topnav {
+        height: 75px;
+        width: 1920px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .topnav a {
+        float: none;
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+
+
+}
 
 /* GitHub */
 

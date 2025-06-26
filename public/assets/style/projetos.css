@@ -76,9 +76,61 @@ body {
     }
 }
 
-/* Titulo do navbar */
+@media screen and (min-width: 1024px) {
+    /* Topnav */
+    .topnav {
+        height: 75px;
+        width: 1920px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 
-#projetos {
-    font-weight: 300;
-    font-size: 27px;
+    .topnav a {
+        float: none;
+        font-size: 24px;
+        padding: 10px 20px;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+
+    /* Apresentação lado a lado com imagem */
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .apresentacao h1, .apresentacao h2 {
+        font-size: 60px;
+        margin-left: 0;
+    }
+
+    .descricao h1 {
+        font-size: 32px;
+        margin-left: 100px;
+        max-width: 60%;
+    }
+
+    #perfil {
+        position: absolute;
+        top: 250px;
+        right: 100px;
+    }
+
+    #perfil img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
